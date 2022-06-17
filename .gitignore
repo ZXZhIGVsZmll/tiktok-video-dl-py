@@ -1,0 +1,8 @@
+# Byte-compiled
+__pycache__/
+
+.DS_store
+secrets.txt
+
+*.mp4
+*.log
