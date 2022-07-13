@@ -41,9 +41,13 @@ cd tiktok-video-dl-py
 Note: Remove ampersand(s) "&" from link if you don't want Bash to run it in the background.
 
 To show Help/Usage use the `--help` flag.
+
+## Features
+- Provide a filename for the downloaded video using --ouput parameter
+- Show info using --info parameter
+
 ## Roadmap
-- Add --ouput parameter :heavy_check_mark:
-- Add GUI
+:black_square_button: Add GUI
 
 
 ## License
