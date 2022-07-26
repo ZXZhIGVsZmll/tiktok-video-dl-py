@@ -11,12 +11,11 @@ Do not download videos which you do not have permission.
 Use git
 
 ```bash
-git clone https://github.com/ZXZhIGVsZmll/tiktok-video-dl-py.git
+git clone https://github.com/ZXZhIGVsZmll/tiktok-video-dl-py.git --depth=1
+pip install -r requirements.txt
 ```
 
-or download the `tiktok-vdl-cli.py` file.
-
-if you don't want to type python3 everytime you run the script
+If you don't want to type python everytime you run the script
 
 ```bash
 chmod u+x tiktok-vdl-cli.py
@@ -28,7 +27,7 @@ Downloading Big Buck Bunny video
 
 ```bash
 cd tiktok-video-dl-py
-python3 tiktok-vdl-cli.py https://www.tiktok.com/@arujiisochiasu/video/6895595198034873601
+python tiktok-vdl-cli.py https://www.tiktok.com/@arujiisochiasu/video/6895595198034873601
 ```
 
 or 
@@ -43,7 +42,7 @@ Note: Remove ampersand(s) "&" from link if you don't want Bash to run it in the 
 To show Help/Usage use the `--help` flag.
 
 ## Features
-- Provide a filename for the downloaded video using --ouput parameter
+- Provide a path/filename using --ouput parameter
 - Show info using --info parameter
 
 ## Roadmap
