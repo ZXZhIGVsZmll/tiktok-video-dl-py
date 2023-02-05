@@ -12,6 +12,7 @@ Use git
 
 ```bash
 git clone https://github.com/ZXZhIGVsZmll/tiktok-video-dl-py.git --depth=1
+cd tiktok-video-dl-py
 pip install -r requirements.txt
 ```
 
